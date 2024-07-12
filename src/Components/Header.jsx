@@ -8,13 +8,13 @@ export default function Header() {
 
   return (
     <div>
-      <nav className="navBar">
-        Logo  
-        <ul>
-          <li onClick={() => setTab("home")}>Home</li>
-          <li onClick={() => setTab("explore")}>Explore</li>
-          <li onClick={() => setTab("about us")}>About Us</li>
-          <li onClick={() => setTab("contact")}>Contact Us</li>
+      <nav className="flex justify-between items-center h-12 text-white">
+        <h1 className="text-green-600 text-2xl pl-4 font-bold">React Practice</h1> 
+        <ul className="flex">
+          <li className="p-4" onClick={() => setTab("home")}>Home</li>
+          <li className="p-4" onClick={() => setTab("explore")}>Explore</li>
+          <li className="p-4" onClick={() => setTab("about us")}>About Us</li>
+          <li className="p-4" onClick={() => setTab("contact")}>Contact Us</li>
         </ul>
       </nav>
       {
