@@ -1,0 +1,29 @@
+*{
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: goldenrod;
+  
+}
+
+.navBar ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.navBar ul li{
+  padding: 10px 20px;
+  
+}
+
+.navBar ul li:hover{
+  background-color: black;
+  color: white;
+}
