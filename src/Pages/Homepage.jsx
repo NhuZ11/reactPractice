@@ -1,7 +1,7 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
-import Gengar from "../assets/download.jpg"
-import Car from "../assets/car.png"
+import Gengar from "../assets/download.jpg";
+import Car from "../assets/car.png";
 
 export default function Homepage() {
   return (
@@ -25,11 +25,34 @@ export default function Homepage() {
           />
         </p>
         <p className="text-gray-500 font-bold">I have yet more to learn.</p>
-        <button className="bg-green-500 w-[180px] rounded-md font-medium mx-auto my-3 py-2 ">Get Started</button>
+        <button className="bg-green-500 w-[180px] rounded-md font-medium mx-auto my-3 py-2 ">
+          Get Started
+        </button>
       </div>
-      <div className="w-full">
+      <div className="w-full ">
         <div className="max-w-[1000px] mx-auto grid ">
-            <img src={Car} alt="" />
+          <img src={Car} alt="" />
+          <div>
+            <p className="text-red-700">Using Image in react</p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta,
+              sint. Error incidunt unde quo et odio, dolore s debitis. Non
+              neque, incidunt illo tenetur sequi minim a impedit repelle ndus
+              nulla soluta delectus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+              voluptatem saepe eligendi, sequi rerum excepturi amet ipsum rem
+              modi totam quod inventore suscipit debitis quibusdam tenetur
+              sapiente blanditiis porro nemo?
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
+              tenetur maiores, tempora, dolores magni deserunt perspiciatis, nam
+              libero facere recusandae at assumenda molestias quidem
+              accusantium. Vitae facilis adipisci asperiores dignissimos?
+            </p>
+          </div>
         </div>
       </div>
     </div>

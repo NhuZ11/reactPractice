@@ -33,13 +33,13 @@ export default function Header() {
         {
           currentTab=="about us" &&
           <div>
-            <h1>About Us Section</h1>
+            <h1 className="text-white">About Us Section</h1>
           </div>
         }
         {
           currentTab=="contact" &&
           <div>
-            <h1>Contact Us Section</h1>
+            <h1 className="text-white">Contact Us Section</h1>
           </div>
         }
     </div>
