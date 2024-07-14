@@ -4,6 +4,7 @@ import Gengar from "../assets/download.jpg";
 import Car from "../assets/car.png";
 import NewsLetter from "../Components/NewsLetter";
 
+
 export default function Homepage() {
   return (
     <div className="text-white">
