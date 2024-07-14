@@ -2,6 +2,7 @@ import React from "react";
 import { ReactTyped } from "react-typed";
 import Gengar from "../assets/download.jpg";
 import Car from "../assets/car.png";
+import NewsLetter from "../Components/NewsLetter";
 
 export default function Homepage() {
   return (
@@ -10,7 +11,7 @@ export default function Homepage() {
         <p className="md:text-6xl sm:text-5xl text-4xl font-bold text-center">
           This is the home page
         </p>
-        <h1 className="text-green-500 text-4xl font-bold p-2 uppercase">
+        <h1 className="text-green-500 md:text-4xl sm:text-3xl text-2xl font-bold p-2 uppercase">
           Homepage
         </h1>
         <p className="font-bold text-3xl">
@@ -30,30 +31,26 @@ export default function Homepage() {
         </button>
       </div>
       <div className="w-full ">
-        <div className="max-w-[1000px] mx-auto grid ">
-          <img src={Car} alt="" />
-          <div>
-            <p className="text-red-700">Using Image in react</p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta,
-              sint. Error incidunt unde quo et odio, dolore s debitis. Non
-              neque, incidunt illo tenetur sequi minim a impedit repelle ndus
-              nulla soluta delectus.
+        <div className="max-w-[1000px] mx-auto flex items-center ">
+          <img src={Car} alt="" className="w-1/2 h-auto" />
+          <div className="w-1/2 p-4 text-justify">
+            <p className="text-green-500 text-2xl font-bold">
+              Using Image in react
             </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
-              voluptatem saepe eligendi, sequi rerum excepturi amet ipsum rem
-              modi totam quod inventore suscipit debitis quibusdam tenetur
-              sapiente blanditiis porro nemo?
+            <p className="text-3sm font-semibold">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt est
+              error nobis? Vero corrupti voluptatibus officiis rem sit libero
+              quisquam rerum asperiores ipsa. Enim illo natus esse soluta ipsum,
+              sint doloribus nesciunt temporibus, tempora veritatis dolor
+              aliquid illum! Repellendus est quia officia ut explicabo ducimus
+              reiciendis inventore, error aliquam voluptas.
             </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
-              tenetur maiores, tempora, dolores magni deserunt perspiciatis, nam
-              libero facere recusandae at assumenda molestias quidem
-              accusantium. Vitae facilis adipisci asperiores dignissimos?
-            </p>
+            <button className="bg-green-500 w-[180px] rounded-md font-medium mx-auto my-3 py-2 ">Learn More</button>
           </div>
         </div>
+      </div>
+      <div>
+        <NewsLetter />
       </div>
     </div>
   );
