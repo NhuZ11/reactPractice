@@ -3,6 +3,7 @@ import { ReactTyped } from "react-typed";
 import Gengar from "../assets/download.jpg";
 import Car from "../assets/car.png";
 import NewsLetter from "../Components/NewsLetter";
+import Footer from "../Components/Footer";
 
 
 export default function Homepage() {
@@ -52,6 +53,9 @@ export default function Homepage() {
       </div>
       <div>
         <NewsLetter />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
