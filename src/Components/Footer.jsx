@@ -14,20 +14,20 @@ const Footer = () => {
         <h1 className="text-green-600 text-2xl pl-4 font-bold">
           React Practice
         </h1>
-        <p className="py-4 ml-3">
+        <p className="py-1 ml-3 text-justify">
           Aliquid eligendi recusandae nemo assumenda aperiam, dolores tenetur,
           cumque, dolorum ea fugit non aliquam? Dolores, necessitatibus numquam!
         </p>
-        <div className="flex justify-between md:w-[75%] my-6 ml-3">
+        <div className="flex justify-around md:w-[75%] my-6 ml-3">
             <FaFacebookSquare />
             <FaInstagram />
             <FaTwitterSquare />
             <FaGithubSquare />
         </div>
       </div>
-      <div className="lg:col-span-2 flex justify-between">
+      <div className="lg:col-span-2 flex justify-around mt-4">
         <div>
-            <h2 className="text-green-500">Front End</h2>
+            <h2 className="text-green-500 font-semibold text-xl">Front End</h2>
             <ul>
                 <li>Angular</li>
                 <li>React</li>
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
 
         <div>
-            <h2 className="text-green-500">Back End</h2>
+            <h2 className="text-green-500 font-semibold text-xl">Back End</h2>
             <ul>
                 <li>Node</li>
                 <li>Express</li>
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
 
         <div>
-            <h2 className="text-green-500">Database</h2>
+            <h2 className="text-green-500 font-semibold text-xl">Database</h2>
             <ul>
                 <li>MangoDB</li>
                 <li>MySql</li>
