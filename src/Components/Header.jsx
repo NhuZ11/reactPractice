@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Homepage from "../Pages/Homepage";
 import Explore from "../Pages/Explore";
+import AboutUs from "../Pages/AboutUs";
 
 
 export default function Header() {
@@ -33,7 +34,7 @@ export default function Header() {
         {
           currentTab=="about us" &&
           <div>
-            <h1 className="text-white">About Us Section</h1>
+            <h1 className="text-white"><AboutUs /></h1>
           </div>
         }
         {
