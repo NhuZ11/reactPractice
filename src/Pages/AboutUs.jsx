@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <div style={{width: "300px"}}>
         <Calendar />
-        <MyCalendar />
+     
 
     </div>
   )

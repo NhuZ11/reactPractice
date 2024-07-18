@@ -11,18 +11,18 @@ const Footer = () => {
   return (
     <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-400">
       <div>
-        <h1 className="text-green-600 text-2xl pl-4 font-bold">
+        <h1 className="text-green-600 text-2xl pl-3 font-bold">
           React Practice
         </h1>
         <p className="py-1 ml-3 text-justify">
           Aliquid eligendi recusandae nemo assumenda aperiam, dolores tenetur,
           cumque, dolorum ea fugit non aliquam? Dolores, necessitatibus numquam!
         </p>
-        <div className="flex justify-around md:w-[75%] my-6 ml-3">
-            <FaFacebookSquare />
-            <FaInstagram />
-            <FaTwitterSquare />
-            <FaGithubSquare />
+        <div className="flex justify-around md:w-[75%] my-6 ">
+            <FaFacebookSquare size='2rem'/>
+            <FaInstagram size='2rem'/>
+            <FaTwitterSquare size='2rem'/>
+            <FaGithubSquare size='2rem' />
         </div>
       </div>
       <div className="lg:col-span-2 flex justify-around mt-4">
