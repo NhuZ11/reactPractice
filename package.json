@@ -10,10 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "chart.js": "^4.4.3",
     "date-fns": "^3.6.0",
     "react": "^18.3.1",
     "react-big-calendar": "^1.13.1",
     "react-calendar": "^5.0.0",
+    "react-chartjs-2": "^5.2.0",
     "react-countup": "^6.5.3",
     "react-datepicker": "^7.3.0",
     "react-dom": "^18.3.1",
@@ -21,6 +23,7 @@
     "react-idle-timer": "^5.7.2",
     "react-modal": "^3.16.1",
     "react-player": "^2.16.0",
+    "react-spinners": "^0.14.1",
     "react-toastify": "^10.0.5",
     "react-typed": "^2.0.12",
     "tippy.js": "^6.3.7"
