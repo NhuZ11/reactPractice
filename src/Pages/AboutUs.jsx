@@ -3,6 +3,8 @@ import Calendar from 'react-calendar'
 import MyCalendar from '../Components/BigCalendar'
 import CountUp from 'react-countup'
 import ReactPlayer from 'react-player'
+import Charts from '../Components/Charts';
+import Graph from '../Components/Graph';
 
 const AboutUs = () => {
   return (
@@ -13,6 +15,10 @@ const AboutUs = () => {
 
         <div>
         <ReactPlayer url='https://www.youtube.com/watch?v=LXb3EKWsInQ' />
+        </div>
+        <div>
+        <Charts />
+        <Graph />
         </div>
 
     </div>
