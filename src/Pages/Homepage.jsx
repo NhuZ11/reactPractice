@@ -6,12 +6,12 @@ import NewsLetter from "../Components/NewsLetter";
 import Footer from "../Components/Footer";
 
 
-export default function Homepage() {
+export default function Homepage(props) {
   return (
     <div className="text-white">
       <div className="mt-4 text-center flex flex-col justify-center">
         <p className="md:text-6xl sm:text-5xl text-4xl font-bold text-center">
-          This is the home page
+          Welcome {props.name}
         </p>
         <h1 className="text-green-500 md:text-4xl sm:text-3xl text-2xl font-bold p-2 uppercase">
           Homepage

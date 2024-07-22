@@ -24,7 +24,7 @@ export default function Header() {
       {
           currentTab=="home" &&
           <div>
-            <Homepage />
+            <Homepage name="NhuZ"/>
           </div>
         }
         {
