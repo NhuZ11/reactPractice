@@ -6,7 +6,7 @@ import Loading from "../Components/Loading";
 import { Bounce } from "react-toastify";
 import Charts from "../Components/Charts";
 import Graph from "../Components/Graph";
-import { Link } from "react-router-dom";
+
 
 export default function Explore() {
   return (
@@ -15,11 +15,7 @@ export default function Explore() {
       <div>
         <Cards />
       </div>
-      <div>
-        <button className="bg-green-500 w-[130px] rounded-md font-medium mx-auto my-3 py-2 ">
-          <Link to="/login">Login</Link>
-        </button>
-      </div>
+
 
       <div>
         <Footer />

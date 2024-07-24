@@ -5,6 +5,7 @@ import CountUp from 'react-countup'
 import ReactPlayer from 'react-player'
 import Charts from '../Components/Charts';
 import Graph from '../Components/Graph';
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
@@ -16,6 +17,14 @@ const AboutUs = () => {
         <div>
         <ReactPlayer url='https://www.youtube.com/watch?v=LXb3EKWsInQ' />
         </div>
+        <div className='flex gap-2'>
+        <button className="bg-green-500 w-[130px] rounded-md font-medium mx-auto my-3 py-2 ">
+          <Link to="/login">Login</Link>
+        </button>
+        <button className="bg-green-500 w-[130px] rounded-md font-medium mx-auto my-3 py-2 ">
+          <Link to="/practice">Practice component</Link>
+        </button>
+      </div>
         <div>
         <Charts />
         <Graph />
