@@ -52,7 +52,7 @@ function ShowCards({ imgSrc,name,price }) {
       >
         BUY NOW
       </button>
-      <ToastContainer position="top-left" />+
+      <ToastContainer position="top-left" />
     </div>
   );
 }
