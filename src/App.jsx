@@ -3,6 +3,7 @@ import './App.css'
 import Header from './Components/Header'
 import Login from './Components/Login'
 import Practice from './Components/Practice'
+import CheckApi from './Components/CheckApi'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
 function App() {
@@ -19,6 +20,11 @@ function App() {
       path: "/practice",
       element:  <Practice />,
     },
+    {
+      path: "/check-api",
+      element:  <CheckApi />,
+    },
+
   ]);
 
   return (

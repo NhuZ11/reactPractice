@@ -24,6 +24,9 @@ const AboutUs = () => {
         <button className="bg-green-500 w-[130px] rounded-md font-medium mx-auto my-3 py-2 ">
           <Link to="/practice">Practice component</Link>
         </button>
+        <button className="bg-green-500 w-[130px] rounded-md font-medium mx-auto my-3 py-2 ">
+          <Link to="/check-api">Practice component</Link>
+        </button>
       </div>
         <div>
         <Charts />
