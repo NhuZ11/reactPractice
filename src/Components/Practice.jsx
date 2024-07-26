@@ -4,12 +4,17 @@ import React, {useState,useEffect} from 'react'
 const Practice = () => {
     const [count, setCount] = useState(0)
 
+    useEffect(()=>{
+      document.title=count>5?"Greater":"lesser"
+      console.log("render")
+    },[count]);
+
     const addUp = ()=>{
         setCount(c=>c+1)
     }
 
     
-        document.title= `${count}`
+    
     
 
   return (
