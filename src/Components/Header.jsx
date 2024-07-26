@@ -3,7 +3,7 @@ import Homepage from "../Pages/Homepage";
 import Explore from "../Pages/Explore";
 import AboutUs from "../Pages/AboutUs";
 import ContactUs from "../Pages/ContactUs";
-
+import Algorithm from "../Pages/Algorithm";
 
 
 
@@ -19,6 +19,7 @@ export default function Header() {
           <li className="p-4 text-xl hover:text-black hover:bg-green-400 cursor-pointer" onClick={() => setTab("explore")}>Explore</li>
           <li className="p-4 text-xl hover:text-black hover:bg-green-400 cursor-pointer" onClick={() => setTab("about us")}>About Us</li>
           <li className="p-4 text-xl hover:text-black hover:bg-green-400 cursor-pointer" onClick={() => setTab("contact")}>Contact Us</li>
+          <li className="p-4 text-xl hover:text-black hover:bg-green-400 cursor-pointer" onClick={() => setTab("algorithm")}>Algorithm</li>
         </ul>
       </nav>
       {
@@ -44,6 +45,12 @@ export default function Header() {
           currentTab=="contact" &&
           <div>
             <h1 className="text-white"><ContactUs /></h1>
+          </div>
+        }
+         {
+          currentTab=="algorithm" &&
+          <div>
+            <h1 className="text-white"><Algorithm /></h1>
           </div>
         }
     </div>

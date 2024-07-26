@@ -27,6 +27,7 @@ const AboutUs = () => {
         <button className="bg-green-500 w-[130px] rounded-md font-medium mx-auto my-3 py-2 ">
           <Link to="/check-api">Check API</Link>
         </button>
+       
       </div>
         <div>
         <Charts />
