@@ -12,7 +12,7 @@ const AboutUs = () => {
     <div style={{width: "300px"}}>
         <Calendar />
 
-        <CountUp end={1000} duration={10}/> 
+        <CountUp end={1000} duration={2}/> 
 
         <div>
         <ReactPlayer url='https://www.youtube.com/watch?v=LXb3EKWsInQ' />

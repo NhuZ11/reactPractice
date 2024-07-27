@@ -6,22 +6,34 @@ const Algorithm = () => {
     {
       username: "Ram",
       income: 50000,
-      expense: 10000,
+      expense: {
+        total: 10000,
+        food : 2000,
+        education: 5000
+      }
     },
     {
       username: "Hari",
       income: 40000,
-      expense: 20000,
+      expense: {
+        total: 20000,
+        food: 1000,
+        education: 8000
+      }
     },
   ];
+  
+
+  
 
   const value = financeData.map((val) => {
-    return <ShowData income={val.income} expense={val.expense} />;
+    return <ShowData income={val.income} expense={val.expense.total} />;
   });
   return (
     <div className="text-white">
       <h1 className="text-2xl font-bold mb-4">The 50/30/20 algorithm</h1>
       {financeData.map((val) => {
+        
         return <ShowData user={val.username} income={val.income} expense={val.expense} />;
       })}
     </div>
@@ -37,7 +49,11 @@ function ShowData({user, income, expense }) {
       <div className="text-white mt-10">
         <h1 className="text-4xl py-5">User: {user}</h1>
         <p>income: {income} </p>
-        <p>expense: {expense} </p>
+        <p>expense: {expense.total} </p>
+        <ul>
+        <li>Food:{expense.food} </li>
+        <li>Education: {expense.education}</li>
+        </ul>
         <p>Expected need expenditure : {need} </p>
         <p>Expected want expenditure : {want} </p>
         <p>Expected saving : {saving} </p>
@@ -50,7 +66,7 @@ function ShowData({user, income, expense }) {
             datasets: [
               {
                 label: "finance",
-                data: [income, expense],
+                data: [income, expense.total],
                 backgroundColor: ["#4CAF50", "#FF6384"],
               },
             ],
