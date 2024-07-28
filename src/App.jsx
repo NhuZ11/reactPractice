@@ -3,6 +3,7 @@ import './App.css'
 import Header from './Components/Header'
 import Login from './Components/Login'
 import Practice from './Components/Practice'
+import Context from './Components/Context'
 import CheckApi from './Components/CheckApi'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
@@ -32,6 +33,9 @@ function App() {
       <div>
       
        <RouterProvider router={router} />
+      </div>
+      <div className='text-white'>
+        <Context />
       </div>
      
     </>

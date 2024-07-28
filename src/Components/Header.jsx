@@ -12,7 +12,7 @@ export default function Header() {
 
   return (
     <div>
-      <nav className="flex justify-between items-center h-12 text-white my-3">
+      <nav className="flex justify-between items-center h-12 text-white my-3 ">
         <h1 className="text-green-600 text-4xl pl-4 font-bold">React Practice</h1> 
         <ul className="flex">
           <li className="p-4 text-xl hover:text-black hover:bg-green-400 cursor-pointer" onClick={() => setTab("home")}>Home</li>
