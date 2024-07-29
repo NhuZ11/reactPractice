@@ -1,0 +1,32 @@
+{
+    "MonthlyIncome": 40000,
+    "Expenses": {
+      "Needs": {
+        "Rent": 10000,
+        "Food": 1000,
+        "Education": 8000,
+        "TotalNeeds": 19000,
+        "RecommendedNeeds": 20000,
+        "DeviationInNeeds": -1000
+      },
+      "Wants": {
+        "Party": 2000,
+        "Gaming": 1000,
+        "Beauty": 2000,
+        "TotalWants": 5000,
+        "RecommendedWants": 12000,
+        "DeviationInWants": -7000
+      }
+    },
+    "Savings": {
+      "ActualSavings": 16000,
+      "RecommendedSavings": 8000,
+      "DeviationInSavings": 8000
+    },
+    "Insights": {
+      "Needs": "You are underspending on needs by 1,000. Ensure all necessary expenses are adequately covered.",
+      "Wants": "You are significantly underspending on wants by 7,000. Consider allocating some funds for personal enjoyment.",
+      "Savings": "You are oversaving by 8,000. While saving is important, consider reallocating some to your wants or needs."
+    }
+  }
+  
