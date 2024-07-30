@@ -6,6 +6,7 @@ import Practice from './Components/Practice'
 import Context from './Components/Context'
 import CheckApi from './Components/CheckApi'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import Calculator from './Components/Calculator'
 
 function App() {
   const router = createBrowserRouter([
@@ -25,6 +26,10 @@ function App() {
       path: "/check-api",
       element:  <CheckApi />,
     },
+    {
+      path: "/calculator",
+      element:  <Calculator />,
+    },
 
   ]);
 
@@ -34,9 +39,7 @@ function App() {
       
        <RouterProvider router={router} />
       </div>
-      <div className='text-white'>
-        <Context />
-      </div>
+     
      
     </>
   )

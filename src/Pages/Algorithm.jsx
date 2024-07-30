@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Bar, Doughnut, Line } from "react-chartjs-2";
+import { Link } from "react-router-dom";
 
 const Algorithm = () => {
   const financeData = [
@@ -30,7 +31,11 @@ const Algorithm = () => {
     return <ShowData income={val.income} expense={val.expense.total} />;
   });
   return (
+    
     <div className="text-white">
+      <button className="bg-green-500 w-[130px] rounded-md font-medium mx-auto my-3 py-2 ">
+      <Link to="/calculator"> Calculator</Link>
+      </button>
       <h1 className="text-2xl font-bold mb-4">The 50/30/20 algorithm</h1>
       {financeData.map((val) => {
         
